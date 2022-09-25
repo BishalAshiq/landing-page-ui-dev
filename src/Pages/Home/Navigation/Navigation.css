@@ -3,14 +3,14 @@
   font-family: "Red Hat Display", sans-serif;
   background-color: rgb(255, 255, 255);
   max-width: 1250;
-  padding: 0 30px;
+  padding: 10px 30px;
   margin: auto;
 }
 
 .first-nav {
   display: flex;
   justify-content: space-between;
-  color: rgb(96, 96, 96);
+  color: rgb(0, 0, 0);
 }
 .h5:hover{
   color: red;
@@ -34,8 +34,8 @@
 .sec-nav .logo a {
   color: #0d0d0d;
   text-decoration: none;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 600;
 }
 .sec-nav .nav-link {
   display: inline-flex;
@@ -68,7 +68,7 @@
 }
 .nav-link li:hover .drop-menu,
 .nav-link li:hover .mega-menu {
-  color: #000000;
+  color: #fa0c0c;
   top: 65px;
   opacity: 1;
   visibility: visible;
@@ -78,6 +78,7 @@
   display: inline-block;
   padding: 0 0 0 15px;
   font-weight: 400;
+  font-size: 15px;
 }
 .mega-menu {
   position: absolute;
@@ -89,7 +90,7 @@
 }
 .mega-menu .content {
   background: #ffffff;
-  padding: 15px 10px;
+  padding: 15px 25px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -98,20 +99,14 @@
   width: calc(25% - 30px);
   line-height: 45px;
 }
-/* .content .row img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  
-} */
 .content .row header{
     color: #090808;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
 }
 .content .row .mega-links{
-  margin-left: -40px;
-  border-left: 1px solid rgba(255,255,255, 0.09);
+  margin-left: 10px;
+  border-left: 2px solid rgba(0, 0, 0, 0.09);
 }
 .content .row:nth-child(1),
 .content .row:nth-child(2){
@@ -120,14 +115,16 @@
 .row .mega-links li a{
   padding: 0 10px; 
   color: #000000;
+  font-size: 13px;
+}
+.row .mega-links li a:hover{
+  color: #fa0c0c;
 }
 #img-nav a{
-  /* border-bottom: 1px solid rgb(7, 6, 6); */
+  border-bottom: 1px solid rgb(7, 6, 6);
   font-weight: 400;
 }
-.img-nav a:hover{
-  border-bottom: "1px solid black";
-}
+
 #img-nav p{
     color: rgb(17, 10, 10);
     font-size: 15px;

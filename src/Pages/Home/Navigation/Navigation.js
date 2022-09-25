@@ -7,11 +7,11 @@ const Navigation = () => {
     <div className="navigation">
       <div className="first-nav">
         <div className="h5">
-          <h5 style={{ marginLeft: 20, borderRight: "1px solid gray", borderLeft: "1px solid gray", padding: 10}}>Call us: 783 367 2678</h5>
+          <h5 style={{ marginLeft: 20, borderRight: "1px solid gray", borderLeft: "1px solid gray", padding: 10, fontSize: 13}}>Call us: 783 367 2678</h5>
         </div>
         <div style={{ display: "flex" }}>
-          <h6 className="h6" style={{ marginRight: 20, borderRight: "1px solid gray", borderLeft: "1px solid gray", padding: 10 }}>Free brochure</h6>
-          <h6 className="h6" style={{ marginRight: 50, borderRight: "1px solid gray", borderLeft: "1px solid gray", padding: 10 }}>Help centre</h6>
+          <h6 className="h6" style={{ marginRight: 20, borderRight: "1px solid gray", borderLeft: "1px solid gray", padding: 10, fontSize: 13 }}>Free brochure</h6>
+          <h6 className="h6" style={{ marginRight: 50, borderRight: "1px solid gray", borderLeft: "1px solid gray", padding: 10, fontSize: 13 }}>Help centre</h6>
         </div>
       </div>
       <div className="sec-nav">
@@ -90,7 +90,7 @@ const Navigation = () => {
                   id="img-nav"
                   style={{
                     backgroundImage: `url(${imgNav})`,
-                    backgroundRepeat: "no-repeat",
+                    backgroundRepeat: "no-repeat", marginLeft:-40,
                   }}
                 >
                   <h3>Bespoke Bifolds</h3>
@@ -101,7 +101,7 @@ const Navigation = () => {
                   >
                     Our most popular bifold. Perfect for thermal efficiency.
                   </p>
-                  <a href="/">Create your own</a>
+                  <a style={{borderBottom: "1px solid black"}} href="/">Create your own</a>
                 </div>
               </div>
             </div>
