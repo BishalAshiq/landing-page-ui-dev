@@ -12,11 +12,11 @@
   justify-content: space-between;
   color: rgb(0, 0, 0);
 }
-.h5:hover{
+.h5:hover {
   color: red;
   cursor: pointer;
 }
-.h6:hover{
+.h6:hover {
   color: red;
   cursor: pointer;
 }
@@ -99,41 +99,41 @@
   width: calc(25% - 30px);
   line-height: 45px;
 }
-.content .row header{
-    color: #090808;
-    font-size: 17px;
-    font-weight: 500;
+.content .row header {
+  color: #090808;
+  font-size: 17px;
+  font-weight: 500;
 }
-.content .row .mega-links{
+.content .row .mega-links {
   margin-left: 10px;
   border-left: 2px solid rgba(0, 0, 0, 0.09);
 }
 .content .row:nth-child(1),
-.content .row:nth-child(2){
+.content .row:nth-child(2) {
   border-left: 0px;
 }
-.row .mega-links li a{
-  padding: 0 10px; 
+.row .mega-links li a {
+  padding: 0 10px;
   color: #000000;
   font-size: 13px;
 }
-.row .mega-links li a:hover{
+.row .mega-links li a:hover {
   color: #fa0c0c;
 }
-#img-nav a{
+#img-nav a {
   border-bottom: 1px solid rgb(7, 6, 6);
   font-weight: 400;
 }
 
-#img-nav p{
-    color: rgb(17, 10, 10);
-    font-size: 15px;
-    text-align: justify;
-    padding: 20px 20px;
+#img-nav p {
+  color: rgb(17, 10, 10);
+  font-size: 15px;
+  text-align: justify;
+  padding: 20px 20px;
 }
-#img-nav  h3{
+#img-nav h3 {
   color: rgb(0, 0, 0);
-    font-size: 15px;
-    text-align: justify;
-    padding: 20px 20px;
+  font-size: 15px;
+  text-align: justify;
+  padding: 20px 20px;
 }

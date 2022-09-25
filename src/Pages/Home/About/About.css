@@ -1,0 +1,23 @@
+.about {
+  margin-top: 80px;
+}
+.about h1,
+p {
+  display: grid;
+  place-items: center;
+}
+
+.imgAbout {
+  width: 545px;
+}
+.about-text {
+  margin-top: 110px;
+}
+.about-text h5,
+p {
+  display: grid;
+  place-items: center;
+}
+.button {
+  margin-left: 120px;
+}
