@@ -12,7 +12,7 @@ const About = () => {
     <div className="about">
       <Container>
         <h1>About US</h1>
-        <p>
+        <p className="p1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut
           <br />
@@ -43,7 +43,7 @@ const About = () => {
               <br />
               labore et dolore magna aliqua.
             </h5>
-            <p>
+            <p className="p2">
               Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
               sed do eiusmod tempor <br /> incididunt ut labore et dolore magna
               aliqua.

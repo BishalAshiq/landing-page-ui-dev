@@ -14,7 +14,7 @@ const Banner = () => {
           <img className="banner-image" src={b1} alt="First slide" />
           <Carousel.Caption className="caption">
             <h1>Modern elegance</h1>
-            <p>Our most popular bifold. Perfect for thermal efficiency.</p>
+            <p style={{textAlign: "left"}}>Our most popular bifold. Perfect for thermal efficiency.</p>
             <Button variant="danger">Our Services</Button>
           </Carousel.Caption>
         </Carousel.Item>
