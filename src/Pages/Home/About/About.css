@@ -4,6 +4,7 @@
 .about h1 {
   display: grid;
   place-items: center;
+  font-weight: 600;
 }
 
 .imgAbout {
@@ -17,6 +18,11 @@
   place-items: center;
 }
 .p1{
+  display: grid;
+  place-items: center;
+}
+.a-h5{
+  margin-left: -20px;
   display: grid;
   place-items: center;
 }

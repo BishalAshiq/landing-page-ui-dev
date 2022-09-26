@@ -8,6 +8,7 @@ const Navigation = () => {
       <div className="first-nav">
         <div className="h5">
           <h5
+          data-aos="zoom-out-right"
             style={{
               marginLeft: 20,
               borderRight: "1px solid gray",
@@ -21,6 +22,7 @@ const Navigation = () => {
         </div>
         <div style={{ display: "flex" }}>
           <h6
+           data-aos="zoom-out-left"
             className="h6"
             style={{
               marginRight: 20,
@@ -33,6 +35,7 @@ const Navigation = () => {
             Free brochure
           </h6>
           <h6
+            data-aos="zoom-out-left"
             className="h6"
             style={{
               marginRight: 50,
@@ -47,7 +50,11 @@ const Navigation = () => {
         </div>
       </div>
       <div className="sec-nav">
-        <div className="logo">
+        <div 
+         data-aos="fade-right"
+         data-aos-offset="300"
+         data-aos-easing="ease-in-sine"
+        className="logo">
           <a href="/">LOGO</a>
         </div>
         <ul className="nav-link">

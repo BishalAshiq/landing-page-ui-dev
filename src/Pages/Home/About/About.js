@@ -11,8 +11,14 @@ const About = () => {
   return (
     <div className="about">
       <Container>
-        <h1>About US</h1>
-        <p className="p1">
+        <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+          About US
+        </h1>
+        <p
+          className="p1"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut
           <br />
@@ -36,8 +42,8 @@ const About = () => {
               </Carousel.Item>
             </Carousel>
           </Col>
-          <Col xs={6} className="about-text">
-            <h5>
+          <Col data-aos="zoom-out-left" xs={6} className="about-text">
+            <h5 className="a-h5">
               Consectetur adipiscing elit, sed <br />
               do eiusmod tempor incididunt ut
               <br />

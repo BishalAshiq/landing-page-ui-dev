@@ -1,8 +1,6 @@
 .blog{
     margin-top: 100px;
-}
-.card-body{
-    /* width: 500px; */
+    cursor: pointer;
 }
 .img-card{
  width: 600px;
